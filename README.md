@@ -163,7 +163,7 @@ getPosts();
     id: 73,
     title: "vid.mp4",
     video:
-      "https://cdn4.telegram-cdn.org/file/CsXCohVeqFeBVQaV2SMdCVbZhZeoa3qVH0wFYUOWsnM17F80y_1NfnZCt2YFwjiGpVPlwstxp1fx4OUg_PnxFrBKydTrs2pZeqZwQ8fFGHz-cfiynyY_hfvbW5k0aqSX5ZKb5sfBKbI7Gj7kSYFTSjWw2xah4T4_xkFw3sf50P56XPK-9CGsAJf28BdVgWTp7uSSQcMCJPtsZ9aRPUyOGzcnV7Fo8_rPszry1sSG0VD5I904DzCmKGc4wDjXOa9OtAcgwFgepaAcEfURtQHVHPII89H8t_n7ggkNXc8NKNF3lbM9jloLyO7h4LyOU_Sj-uvHRhg.jpg",
+      "https://cdn4.telegram-cdn.org/file/CsXCohVeqFeBVQaV2SMdCVbZhZeoa3qVH0wFYUOWsnM17F80y_1NfnZCt2YFwjiGpVPlwstxp1fx4OUg_PnxFrBKydTrs2pZeqZwQ8fFGHz-cfiynyY_hfvbW5k0aqSX5ZKb5sfBKbI7Gj7kSYFTSjWw2xah4T4_xkFw3sf50P56XPK-9CGsAJf28BdVgWTp7uSSQcMCJPtsZ9aRPUyOGzcnV7Fo8_rPszry1sSG0VD5I904DzCmKGc4wDjXOa9OtAcgwFgepaAcEfURtQHVHPII89H8t_n7ggkNXc8NKNF3lbM9jloLyO7h4LyOU_Sj-uvHRhg.mp4",
   },
 ];
 ```
