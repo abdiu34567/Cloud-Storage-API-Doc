@@ -1,5 +1,40 @@
 # ⚡️ CLOUD STORAGE API ⚡️
 
+Our Cloud Storage API provides a seamless and free solution for users to `upload` and `retrieve` files such as `photos` and `videos`. The API is integrated with Telegram, allowing users to securely store their files on Telegram servers and access them using `unique access keys`.
+
+**Features:**
+
+- **Upload and Retrieve Files:** Users can easily upload their photos and videos to the Cloud Storage API. They can also retrieve their files whenever needed, ensuring easy access to their media content.
+
+- **Telegram Integration:** The API leverages Telegram's robust infrastructure to store and manage user files, ensuring a secure and reliable storage solution.
+
+- **Unique Access Keys:** Each user is provided with a unique access key token that combines their Telegram account ID and a random number. This access key ensures secure and private access to their stored files.
+
+**Supported File Types:**
+
+Currently, the API supports the following file types:
+
+- `Photos (image files)`
+- `Videos`
+
+**Future Enhancements:**
+
+We have plans to expand the API's capabilities in the future to include additional file types, such as audio and documents, based on user feedback and needs.
+
+**Terms and Conditions:**
+
+- `Data Retention:` We do not delete your files from the Telegram servers, but please note that the API relies on Telegram's infrastructure, and we cannot guarantee the duration for which your files will be stored on their servers.
+
+- `Recommended Usage:` Our Cloud Storage API is ideal for non-confidential projects where users seek a convenient and free file storage solution. For sensitive or confidential data, we recommend using specialized storage services with dedicated security measures.
+
+**Note:**
+
+As we continue to improve our API, we value user feedback and will consider adding new features and functionalities to meet the evolving needs of our users. We aim to provide a user-friendly and reliable cloud storage solution integrated with Telegram, offering a seamless experience for file management and access.
+
+---
+
+<br>
+
 ## Get Access
 
 🌟 First, you need to `register` and get `access_key` token.
