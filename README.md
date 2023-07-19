@@ -21,6 +21,10 @@ Currently, the API supports the following file types:
 
 We have plans to expand the API's capabilities in the future to include additional file types, such as audio and documents, based on user feedback and needs.
 
+**Limitation:**
+
+For optimal performance and fair resource allocation, the API enforces a limitation on file uploads. Users can upload a maximum of 5 photos at once. This limitation ensures smooth handling of file uploads and enhances overall user experience.
+
 **Terms and Conditions:**
 
 - `Data Retention:` We do not delete your files from the Telegram servers, but please note that the API relies on Telegram's infrastructure, and we cannot guarantee the duration for which your files will be stored on their servers.
