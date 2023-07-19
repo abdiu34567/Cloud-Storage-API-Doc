@@ -23,7 +23,7 @@ We have plans to expand the API's capabilities in the future to include addition
 
 **Limitation:**
 
-For optimal performance and fair resource allocation, the API enforces a limitation on file uploads. Users can upload a maximum of 5 photos at once. This limitation ensures smooth handling of file uploads and enhances overall user experience.
+For optimal performance and fair resource allocation, the API enforces a limitation on file uploads. Users can upload a maximum of <b><u>5</u></b> photos at once. This limitation ensures smooth handling of file uploads and enhances overall user experience.
 
 **Terms and Conditions:**
 
