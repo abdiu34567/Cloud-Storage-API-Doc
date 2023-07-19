@@ -1,6 +1,16 @@
 # ⚡️ CLOUD STORAGE API ⚡️
 
-> Base Url : https://localhost:3000/api
+## Get Access
+
+🌟 First, you need to `register` and get `access_key` token.
+
+> **To Register:**
+>
+> - **https://t.me/CloudAuthorizeBot**
+
+<br>
+
+> Base Url : https://unlimited-cloud-storage-api.vercel.app/api
 
 <br>
 
@@ -38,12 +48,16 @@ const uploadFile = async () => {
     });
 
     await axios
-      .post("http://localhost:3000/api/upload", formData, {
-        headers: {
-          access_key: "Your access key",
-          "Content-Type": "multipart/form-data",
-        },
-      })
+      .post(
+        "https://unlimited-cloud-storage-api.vercel.app/api/upload",
+        formData,
+        {
+          headers: {
+            access_key: "Your access key",
+            "Content-Type": "multipart/form-data",
+          },
+        }
+      )
       .then(function (response) {
         console.log(response.data.message);
       })
@@ -85,7 +99,7 @@ const axios = require("axios");
 
 const getFile = async () => {
   await axios
-    .get("http://localhost:3000/api/getfile/myfile", {
+    .get("https://unlimited-cloud-storage-api.vercel.app/api/getfile/myfile", {
       headers: {
         access_key: "Your access key",
       },
@@ -122,7 +136,7 @@ getFile();
 
 ### Example:
 
-**[Get]** ⚡️ https://localhost:3000/api/getposts
+**[Get]** ⚡️ https://unlimited-cloud-storage-api.vercel.app/api/getposts
 
 <br>
 
