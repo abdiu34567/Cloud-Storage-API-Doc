@@ -117,7 +117,11 @@ uploadFile();
 
 ```js
 {
-  message: "Files uploaded successfully";
+    "message": "Files uploaded successfully",
+    "uploadedUrls": [
+        "https://cdn4.telegram-cdn.org/file/FELzjyD91K_jwmnpzTJK_HIiHN5B_0U_fukX_sJRm-rhtZkdlrwUSnBD0gwFhfNHgYPl6FquM4ZZEUHvMzrzFmRxY5Ql1TEs2CM1pBGKsVJtTuNOYrwciXKM7CgkFOSDDeLYVi-02D5mvcAyw4n1AElXbISUPrl3f7AVMwYkxPZUtzYWlnWuLNMVg0dILY4e2mO-YDiOrYTYthQjVAXMn5wlKVC-hYuk4lqWPUSiUgJugNoR3RhIxsY-w90zA-Ti9x0V_n4sDpyxhqC47XTm7E62SQtyYDEg42fng-iRIuQMU3sv2rX63P4fr1Mwri-yrT0qBopdEI4vb8sbDt5txw.jpg",
+        "https://cdn4.telegram-cdn.org/file/GCWBiIar7WuKSrVn0TBlUq_9HfBF2gjhymdi9dFgODAryCRTpYxML4-Ei06INhIHXVCQLEc8cDfpfKEXT9ysFcuTGEVuQ15wlWWCIBhKI_TTVuJCNLfAmKoCDJ6XHTDXpFEFkH8JLsVcTFHEG2R2ufkyNaqFoHaktS63jNofK1CoHchZv-lR_YKLR1oOm-rlCr6I5goBBxexPa6Mfvf1HgeFIN3jd3Qum_LI7w2W4sM0LHcTlhE1kE5mYnZnzDsyO9kjMoBmYRAauiTw-GfCT1NgTJ2eusKJrwiONMveMPOnAD7SsyDjPE_erusys4Vk5AoHzLGPIWOzWJo6e1E8XA.jpg"
+    ]
 }
 ```
 
