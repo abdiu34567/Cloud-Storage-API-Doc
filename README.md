@@ -188,7 +188,7 @@ const axios = require("axios");
 
 const getPosts = async () => {
   await axios
-    .get("http://localhost:3000/api/getposts", {
+    .get("https://unlimited-cloud-storage-api.vercel.app/api/getposts", {
       headers: {
         access_key: "Your access key",
       },
