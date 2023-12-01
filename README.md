@@ -251,7 +251,7 @@ const body = {
 };
 
 const header = {
-  access_key: "1263669270_886075",
+  access_key: "12636692...", //get from cloud autorize bot
 };
 
 const endPoint =
