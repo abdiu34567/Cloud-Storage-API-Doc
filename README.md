@@ -58,12 +58,11 @@ As we continue to improve our API, we value user feedback and will consider addi
 - ⚡️`upload/`
 - ⚡️`getfile/{file_name}`
 - ⚡️`getposts/`
+- ⚡️`uploadfileurl/`
 
 <br>
 
 ## upload:
-
-<br>
 
 ### Example:
 
@@ -125,11 +124,11 @@ uploadFile();
 }
 ```
 
+---
+
 <br>
 
 ## getfile/{name}
-
-<br>
 
 ### Example:
 
@@ -173,9 +172,11 @@ getFile();
 ];
 ```
 
-## getposts
+---
 
 <br>
+
+## getposts
 
 ### Example:
 
@@ -223,4 +224,48 @@ getPosts();
       "https://cdn4.telegram-cdn.org/file/CsXCohVeqFeBVQaV2SMdCVbZhZeoa3qVH0wFYUOWsnM17F80y_1NfnZCt2YFwjiGpVPlwstxp1fx4OUg_PnxFrBKydTrs2pZeqZwQ8fFGHz-cfiynyY_hfvbW5k0aqSX5ZKb5sfBKbI7Gj7kSYFTSjWw2xah4T4_xkFw3sf50P56XPK-9CGsAJf28BdVgWTp7uSSQcMCJPtsZ9aRPUyOGzcnV7Fo8_rPszry1sSG0VD5I904DzCmKGc4wDjXOa9OtAcgwFgepaAcEfURtQHVHPII89H8t_n7ggkNXc8NKNF3lbM9jloLyO7h4LyOU_Sj-uvHRhg.mp4",
   },
 ];
+```
+
+---
+
+</br>
+
+## uploadfileurl
+
+### Example:
+
+**[POST]** ⚡️ https://unlimited-cloud-storage-api.vercel.app/api/uploadfileurl
+
+<br>
+
+```js
+// Import axios library
+const axios = require("axios");
+
+// Define the body, header and endpoint
+const body = {
+  fileUrls: [
+    "https://th.bing.com/th/id/OIP.HxV79tFMPfBAIo0BBF-sOgHaEy?rs=1&pid=ImgDetMain",
+    "https://th.bing.com/th/id/R.9f214b0588c3db4ec93470b884140103?rik=XSDEeGIWON%2f9vg&pid=ImgRaw&r=0",
+  ],
+};
+
+const header = {
+  access_key: "1263669270_886075",
+};
+
+const endPoint =
+  "https://unlimited-cloud-storage-api.vercel.app/api/uploadfileurl";
+
+// Make the api request using axios
+axios
+  .post(endPoint, body, { headers: header })
+  .then((response) => {
+    // Handle the response
+    console.log(response.data);
+  })
+  .catch((error) => {
+    // Handle the error
+    console.error(error);
+  });
 ```
