@@ -132,7 +132,7 @@ uploadFile();
 
 ### Example:
 
-**[Get]** ⚡️ https://localhost:3000/api/getfile/myfile
+**[Get]** ⚡️  https://unlimited-cloud-storage-api.vercel.app/api/getfile/myfile
 
 <br>
 
